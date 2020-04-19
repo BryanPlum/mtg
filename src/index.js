@@ -1,17 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Header from './components/header';
+import Banner from './components/banner';
+// import Search from './components/search';
+import App from './components/app';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Header />,
+  document.getElementById('header')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+  <Banner />, 
+  document.getElementById('banner')
+);
+
+
+// ReactDOM.render(
+//   <Search />, 
+//   document.getElementById('search')
+// );
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('search')
+)
+
+
+
+
