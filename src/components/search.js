@@ -5,9 +5,11 @@ import '../css/main.css'
 
 function Search(){
     return (
-        <form>
-             <label>Buscar:</label>
-        </form>
+        <div className="container">
+            <form>
+                <label>Buscar:</label>
+            </form>
+        </div>
     );
 }
 

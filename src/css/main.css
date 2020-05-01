@@ -1,8 +1,8 @@
-.bgBanner{
-    background-image: url('../images/banner.jpg');
-    background-size: contain;
+ .bgBanner{
+    
+     background-size: contain;
     background-repeat: no-repeat;
     min-height: 200px;
-
+    width:100%;
     
-}
+}  
